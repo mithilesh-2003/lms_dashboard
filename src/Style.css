@@ -1,0 +1,271 @@
+.container{
+    display:flex;
+    .pageimg{
+         height:100vh;
+         width:65vw;
+         
+    }
+  }
+  .main{
+    width:65vw;
+    height:100vh;
+  }
+  .second{
+    width:30vw;
+    height:100vh;
+  }
+  
+  .logoimg{
+    height:16vh;
+    width:18vw;
+    margin-top:6vh;
+    margin-left:5vw;
+   
+  }
+  .heding{
+    font-size:15px;
+    margin-left:9vw;
+    text-align:justify;
+  }
+  .loginform{
+    margin-left:1vw;
+    margin-top:9vh;
+  }
+  .inputlogin{
+    height:5vh;
+    width:20vw;
+    background:rgb(233, 236, 240);
+    border-radius:5px;
+  
+  } 
+  label{
+    cursor: pointer;
+    margin-left:3vw;
+  }
+  .buttonlogin{
+    height:5vh;
+    width:20vw;
+    margin-top:5vh;
+    border:none;
+    background:rgb(7, 113, 252);
+    color:white;
+    border-radius: 5px;
+  }
+  .buttonlogin1{
+    height:5vh;
+    width:20vw;
+    margin-top:5vh;
+    margin-left:3vw;
+    border:none;
+    background:rgb(7, 113, 252);
+    color:white;
+    border-radius: 5px;
+  }
+  .remeder{
+    margin-top:5vh;
+  }
+  .copyright{
+    font-size:14px;
+    margin-left:6vw;
+    color:rgb(165, 172, 179);
+  
+  }
+ 
+
+  .main-container{
+    position:absolute;
+    grid-area:main;
+    overflow-y: auto;
+    padding: 20px 20px;
+    top:14vh;
+    left:17vw;
+  }
+
+.header-logo{
+    height:11vh;
+    width:315px;
+   
+    
+}
+.header-item{
+ margin-left:3vw;
+ margin-top:10px;
+}
+.header-item2{
+  margin-right:52vw;
+  margin-top:10px;
+}
+
+.link-header{
+    text-decoration:none;
+    color:rgb(90, 89, 89);
+}
+.link-header:hover{
+    text-decoration:none;
+    color:rgb(92, 86, 86);
+}
+.p-header-icon{
+    height:7vh;
+    width:4vw;
+    margin-left:2vw;
+    margin-top:5px;
+    border-radius:30px;
+}
+.header-mr{
+    margin-left:60vw;
+    
+}
+.header-ml{
+    margin-left:2vw;
+    
+}
+.sidebar-container{
+    display:block;
+    height:100vh;
+    width:17vw;
+    background:rgb(47, 47, 62);
+    color:rgb(137, 137, 137);
+    padding-top:5vh;
+}
+.ul-sidebar{
+    list-style-type:none;
+    font-size:16px;
+}
+.ul-sidebar:hover{
+    list-style-type:none;
+    color:rgb(229, 225, 225);
+    font-size:16px;
+}
+
+.icon-sidebar{
+background:black;
+font-size:4vh;
+text-align: center;
+margin-right:1vw;
+margin-top:2vh;
+padding-bottom:1vh;
+padding-left:8px;
+padding-right:8px;
+border-radius:5px;
+
+}
+
+.link-sidebar{
+    text-decoration:none;
+    color:rgb(137, 137, 137);
+    font-size:16px;  
+}
+.link-sidebar:hover{
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+}
+.card-dashbord{
+    height:20vh;
+    width:18vw;
+    border-radius:5px;
+    background:whitesmoke;
+    padding-top:5vh;
+    padding-left:1vw;
+    display:flex;
+    margin-right:2vw;
+    margin-top:1vh;
+    margin-right:25px;
+
+}
+.icon-dashbord{
+    background:rgb(28, 153, 242);
+    font-size:5vh;
+    height:9vh;
+    color:white;
+    margin-right:1vw;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:5px;
+    }
+    .card-text-dashbord{
+        margin-top:1vh;
+       color:rgb(130, 128, 128);
+    }
+    .card-of-dashbord{
+        display:flex;
+    }
+    .models-dashbord{
+      height:63vh;
+      width:54vw;
+      border-radius:5px;
+      background:whitesmoke;
+      padding-top:3vh;
+      margin-top:3vh;
+    }
+    .card-button{
+      border:none;
+      background:whitesmoke;
+      color:gray;
+      margin-right:1vw;
+    }
+    .card-button:hover{
+      border:none;
+      background:whitesmoke;
+      color:white;
+      background:blue;
+      border-radius:5px;
+      margin-right:1vw;
+    }
+
+    .card-dashbord1{
+      height:20vh;
+      width:25vw;
+      border-radius:5px;
+      background:rgb(255, 255, 255);
+      padding-top:3vh;
+      padding-left:1vw;
+      display:flex;
+      margin-right:2vw;
+      margin-top:2vh;
+      margin-left:2vw;
+  
+  }
+  .icon-dashbord1{
+      background:rgb(28, 153, 242);
+      font-size:5vh;
+      height:9vh;
+      color:white;
+      margin-right:1vw;
+      margin-top:3vh;
+      padding-left:8px;
+      padding-right:8px;
+      border-radius:5px;
+      }
+      .card-text-dashbord1{
+          margin-top:1vh;
+         color:rgb(130, 128, 128);
+      }
+      .card-of-last{
+        height:60vh;
+        width:18vw;
+        background-color:whitesmoke;
+        border-radius:5px;
+        margin-top:3vh;
+        margin-left:3vw;
+      }
+      .btn-dashbord{
+        border:none;
+        background-color:whitesmoke;
+        margin-right:1vw;
+        margin-left:1vw;
+      }
+      .search-user-emp{
+        height:6vh;
+        width:30vw;
+        border-radius:20px;
+        border:none;
+        background-color:whitesmoke;
+        margin-left:43vw;
+   
+      }
+      .add-employee-btn{
+          margin-left:70vw;
+          margin-top:5vh;
+      }
+    
