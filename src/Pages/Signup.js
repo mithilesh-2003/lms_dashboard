@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import './App.css';
-import axios from './axios'
-import Swal from './sweetalert2'
+import React, { useState} from 'react';
+import '../App.css';
+import axios from 'axios'
+import Swal from 'sweetalert2'
+import{ useNavigate } from 'react-router-dom';
 
 function Signup() {
   const [formData, setFormData] = useState({
@@ -11,7 +12,7 @@ function Signup() {
     date: '',
     password: '',
   });
-
+const Navigate=useNavigate();
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -21,7 +22,7 @@ function Signup() {
   };
 
   const handleSubmit = async(e) => {
-    e.preventdefault();
+    e.preventDefault();
     try{
         // api call
         const response =await axios.post('http://localhost:3001/Signup',formData);
@@ -31,6 +32,7 @@ function Signup() {
                 icon:'success',
                 title:'signup scuuessfully'
             })
+            Navigate('/Login')
         }
         else{
             console.error('invalid response data',response);
@@ -110,3 +112,6 @@ function Signup() {
 }
 
 export default Signup;
+
+
+ 
